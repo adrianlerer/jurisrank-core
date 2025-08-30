@@ -1,0 +1,138 @@
+{
+  "overall_status": "PASSED",
+  "success_rate": 1.0,
+  "tests_passed": 6,
+  "total_tests": 6,
+  "detailed_results": {
+    "immutable_logging": {
+      "passed": true,
+      "audit_file": "logs/TEST_IMMUTABLE_20250830_125546_20250830_125546.json",
+      "integrity_verified": true,
+      "immutable_hash": "94317f3397aa14f2..."
+    },
+    "prompt_kits": {
+      "passed": true,
+      "kits_found": 2,
+      "kits_details": [
+        "constitutional_art19_enhanced (5/5 components)",
+        "balancing_test_constitutional (3/4 components)"
+      ],
+      "simulation_successful": true
+    },
+    "citation_verification": {
+      "passed": true,
+      "verification_rate": 0.75,
+      "total_citations": 4,
+      "verified_citations": 3,
+      "results": [
+        {
+          "citation": "Bazterrica, Gustavo Mario - Fallos 308:1392 (1986)",
+          "verified": true,
+          "confidence": 1.0,
+          "authority_score": 0.95,
+          "verification_timestamp": "2025-08-30T12:55:46.963579"
+        },
+        {
+          "citation": "Arriola, Sebastián y otros - Fallos 332:1963 (2009)",
+          "verified": true,
+          "confidence": 1.0,
+          "authority_score": 0.98,
+          "verification_timestamp": "2025-08-30T12:55:46.963635"
+        },
+        {
+          "citation": "Art 19 CN",
+          "verified": true,
+          "confidence": 1.0,
+          "authority_score": 1.0,
+          "verification_timestamp": "2025-08-30T12:55:46.963671"
+        },
+        {
+          "citation": "Caso Inexistente - Fallos 999:999 (2024)",
+          "verified": false,
+          "confidence": 0.0,
+          "authority_score": null,
+          "verification_timestamp": "2025-08-30T12:55:46.963704"
+        }
+      ]
+    },
+    "multi_model_ensemble": {
+      "passed": true,
+      "consensus_confidence": 0.8225,
+      "model_agreement": 0.99638125,
+      "verification_rate": 0.6666666666666666,
+      "models_tested": 4,
+      "human_review_needed": true
+    },
+    "counter_arguments": {
+      "passed": true,
+      "total_arguments": 2,
+      "strong_arguments": 0,
+      "moderate_arguments": 1,
+      "arguments_details": [
+        {
+          "argument_type": "state_police_power",
+          "argument_text": "El Estado conserva poder de policía para regular conductas que, aunque privadas, pueden afectar orden público y seguridad social",
+          "supporting_precedents": [
+            "Doctrina del poder de policía (CSJN)",
+            "Limitaciones razonables a derechos fundamentales"
+          ],
+          "strength_assessment": "moderate",
+          "constitutional_basis": [
+            "Art 14 CN - reglamentación razonable"
+          ],
+          "generated_by": "darwin_asi"
+        },
+        {
+          "argument_type": "public_order",
+          "argument_text": "El concepto de orden público en Art 19 CN mantiene vigencia como límite constitucional ante potencial afectación social",
+          "supporting_precedents": [
+            "Interpretación restrictiva del Art 19 CN",
+            "Doctrina sobre orden público constitucional"
+          ],
+          "strength_assessment": "weak",
+          "constitutional_basis": [
+            "Art 19 CN - orden público"
+          ],
+          "generated_by": "gemini_pro"
+        }
+      ]
+    },
+    "human_sign_off": {
+      "passed": true,
+      "quality_level": "medium_confidence",
+      "requires_review": false,
+      "requires_sign_off": false,
+      "review_triggers": [],
+      "workflow_steps": [
+        {
+          "step": "Quality Assessment",
+          "status": "completed",
+          "result": "medium_confidence"
+        },
+        {
+          "step": "Review Triggers Check",
+          "status": "completed",
+          "result": "0 triggers"
+        },
+        {
+          "step": "Human Review Decision",
+          "status": "completed",
+          "result": "not_required"
+        },
+        {
+          "step": "Legal Sign-off",
+          "status": "not_required",
+          "result": "n/a"
+        }
+      ],
+      "metrics": {
+        "consensus_confidence": 0.82,
+        "model_agreement": 0.75,
+        "verification_rate": 0.89,
+        "novel_constitutional_issue": false,
+        "high_stakes_case": false
+      }
+    }
+  },
+  "timestamp": "2025-08-30T12:55:46.965021"
+}
