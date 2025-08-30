@@ -1,27 +1,40 @@
-# LinkedIn Outreach Template for Juan Pablo Robador
+# Repository Visibility Strategy for Juan Pablo Robador
 
-## Initial Contact Message
+## Passive Professional Approach
 
-**Asunto:** JurisRank AI + Alberdi: Potencial Sinergia en Análisis Constitucional
+**Strategy:** Position repository for Juan Pablo to discover and initiate contact
+
+**Professional Repository Presentation:**
+- Showcase expertise as Senior Corporate Lawyer
+- Demonstrate breakthrough AI constitutional analysis system  
+- Highlight academic rigor and practical implementation
+- Position as open for partnership discussions
+- Allow interested legal tech professionals to reach out
+
+## If Direct Contact Becomes Necessary
+
+**Asunto:** JurisRank AI: Constitutional Analysis Innovation
 
 **Mensaje:**
 ```
 Estimado Juan Pablo,
 
-Soy [User Name], desarrollador del sistema JurisRank AI para análisis constitucional. He visto el excelente trabajo que están realizando en Alberdi con IA especializada en derecho argentino.
+Soy Ignacio Adrian Lerer, abogado corporativo senior especializado en derecho constitucional e innovación legal con IA.
 
-Recientemente completé una implementación avanzada de análisis constitucional que incluye:
-• Grafo de conocimiento constitucional (precedentes Bazterrica-Arriola)
+He desarrollado JurisRank AI, un sistema avanzado de análisis constitucional que incluye:
+• Grafo de conocimiento constitucional (precedentes Bazterrica-Arriola)  
 • Ensemble multi-modelo con supervisión humana
 • Verificación inmutable de citas legales
 • Generación automática de contraargumentos
 
-El código está disponible públicamente en GitHub: [repository_link]
+El sistema está disponible públicamente en GitHub, respaldado por investigación académica rigurosa.
 
-Creo que podría existir una sinergia interesante entre JurisRank y la plataforma Alberdi. ¿Estarías abierto a una conversación exploratoria?
+Dado el enfoque de Alberdi en IA para derecho argentino, podría haber oportunidades de colaboración interesantes.
+
+Quedo a disposición para cualquier consulta.
 
 Saludos cordiales,
-[User Name]
+Ignacio Adrian Lerer
 ```
 
 ## Follow-up Message 1 (Day +3)

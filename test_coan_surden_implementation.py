@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-JurisRank P7 Enhanced - Test Completo de Implementación Kini
+JurisRank P7 Enhanced - Test Completo de Implementación Académica
 Demostración de todas las mejoras de Coan & Surden implementadas
 
 Test Components:
@@ -31,9 +31,9 @@ sys.path.append(str(Path(__file__).parent))
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class KiniImplementationTest:
+class AcademicImplementationTest:
     """
-    Complete test of Kini (Coan & Surden) improvements implementation
+    Complete test of Academic (Coan & Surden) improvements implementation
     """
     
     def __init__(self):
@@ -45,7 +45,7 @@ class KiniImplementationTest:
         self.audit_dir.mkdir(exist_ok=True)
         self.prompt_dir.mkdir(exist_ok=True)
         
-        logger.info("Kini Implementation Test initialized")
+        logger.info("Academic Implementation Test initialized")
         
     def test_1_immutable_logging(self) -> bool:
         """Test 1: Logging inmutable según Coan & Surden"""
@@ -547,9 +547,9 @@ class KiniImplementationTest:
             return False
             
     def run_complete_test_suite(self) -> Dict[str, Any]:
-        """Run complete Kini implementation test suite"""
+        """Run complete Academic implementation test suite"""
         
-        logger.info("🏛️ JURISRANK P7 ENHANCED - KINI IMPLEMENTATION TEST SUITE")
+        logger.info("🏛️ JURISRANK P7 ENHANCED - ACADEMIC IMPLEMENTATION TEST SUITE")
         logger.info("🔗 Testing Coan & Surden + AI Limitations + WorldClass Integration")
         logger.info("=" * 80)
         
@@ -590,7 +590,7 @@ class KiniImplementationTest:
         logger.info(f"🏆 Overall Status: {overall_status}")
         
         if success_rate >= 0.8:
-            logger.info(f"🎉 KINI IMPLEMENTATION SUCCESSFULLY COMPLETED!")
+            logger.info(f"🎉 ACADEMIC IMPLEMENTATION SUCCESSFULLY COMPLETED!")
             logger.info(f"🔒 Coan & Surden compliance: ACHIEVED")
             logger.info(f"🧠 AI limitations mitigation: ACTIVE")  
             logger.info(f"🤖 Multi-model ensemble: FUNCTIONAL")
@@ -618,13 +618,13 @@ class KiniImplementationTest:
         }
 
 def main():
-    """Run Kini implementation test suite"""
+    """Run Academic implementation test suite"""
     
-    test_suite = KiniImplementationTest()
+    test_suite = AcademicImplementationTest()
     results = test_suite.run_complete_test_suite()
     
     # Save results
-    results_file = Path("test_results_kini_implementation.json")
+    results_file = Path("test_results_academic_implementation.json")
     with open(results_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
         

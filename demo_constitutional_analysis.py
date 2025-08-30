@@ -149,7 +149,7 @@ def demo_performance_metrics():
         "Modelos de IA integrados": "4 sistemas"
     }
     
-    print("📊 Métricas validadas (Implementación Kini):")
+    print("📊 Métricas validadas (Implementación Académica):")
     for metric, value in metrics.items():
         time.sleep(0.3)
         print(f"   ✅ {metric}: {value}")
